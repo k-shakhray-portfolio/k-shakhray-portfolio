@@ -1,0 +1,96 @@
+.app-descr__share {
+  width: 290px;
+  margin: 120px auto 70px auto;
+}
+
+.app-descr__share-title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: #635c73;
+  text-transform: uppercase;
+  line-height: 34px;
+  margin: 0 auto 22px auto;
+}
+
+.app-descr__share-paragraph {
+  text-align: center;
+  font-size: 14px;
+  color: #868686;
+  line-height: 20px;
+  margin: 0 auto 22px auto;
+}
+
+.app-descr__share-group {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*width: 248px;*/
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+.app-descr__share-item {
+  padding-bottom: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.app-descr__share-link {
+  font-weight: bold;
+  border: 1px solid darkgray;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  position: relative;
+  height: 24px;
+  /*float: left;*/
+}
+
+.app-descr__share-link:hover {
+  border-color: #868686;
+  background: darkgray;
+}
+
+.app-descr__share-count {
+  /*float: left;*/
+  padding: 4px;
+  border: 1px solid darkgray;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border-left: 0;
+}
+
+
+@media (min-width: 481px) and (max-width: 992px) {
+
+  .app-descr__share-paragraph {
+    width: unset;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .app-descr__share {
+    width: unset;
+  }
+
+
+}
+
+@media(min-width: 993px) {
+
+  .app-descr__share-paragraph {
+    width: unset;
+    margin-left: 230px;
+    margin-right: 230px;
+  }
+
+  .app-descr__share {
+    width: unset;
+  }
+
+}

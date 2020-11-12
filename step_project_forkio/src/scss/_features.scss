@@ -1,0 +1,142 @@
+.app-descr__features {
+  background: #f4f4f4;
+  padding: 38px 0 22px 0;
+}
+
+
+.app-descr__features-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #8d81ac;
+  width: 230px;
+  margin: 0 auto 33px auto;
+}
+
+.app-descr__features-group {
+  overflow: hidden;
+}
+
+.app-descr__features-item {
+  width: 290px;
+  text-align: center;
+  margin: 0 auto 33px auto;
+}
+
+.app-descr__features-img {
+  margin-bottom: 30px;
+}
+
+.app-descr__features-img.img-1 {
+  width: 110px;
+}
+.app-descr__features-img.img-2 {
+  width: 90px;
+}
+.app-descr__features-img.img-3 {
+  width: 60px;
+}
+.app-descr__features-img.img-4 {
+  width: 70px;
+}
+
+.app-descr__features-sub-title {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.app-descr__features-paragraph {
+  font-size: 14px;
+  color: #848e97;
+  line-height: 20px;
+}
+
+.app-descr__features-illustration {
+  margin-left: 20px;
+}
+
+@media (min-width: 481px) and (max-width: 992px) {
+
+  .app-descr__features {
+    width: unset;
+  }
+
+  .app-descr__features-title {
+    width: unset;
+  }
+
+  .app-descr__features-group {
+    overflow: hidden;
+  }
+
+  .app-descr__features-item {
+    width: 80%;
+    text-align: left;
+    padding: 0 20px;
+    margin: 0 auto 60px auto;
+    position: relative;
+  }
+
+  .app-descr__features-img {
+    position: absolute;
+    left: 0;
+  }
+
+  .app-descr__features-descr {
+    display: inline-block;
+    padding-left: 120px;
+  }
+
+}
+
+@media(min-width: 993px) {
+
+  .app-descr {
+    //width: 1200px;
+    margin: 0 auto;
+  }
+
+  .app-descr__features {
+    overflow: hidden;
+  }
+
+  .app-descr__features-group {
+    overflow: initial;
+  }
+
+  .app-descr__features-title {
+    float: right;
+    width: 40%;
+    margin: 86px auto;
+    font-size: 48px;
+  }
+
+  .app-descr__features-item {
+    width: 505px;
+    text-align: left;
+    margin-bottom: 60px;
+    position: relative;
+  }
+
+  .app-descr__features-img {
+    position: absolute;
+    left: 15px;
+  }
+
+  .app-descr__features-descr {
+    margin-left: 165px;
+  }
+
+  .app-descr__features-group {
+    position: relative;
+    width: 510px;
+    margin-top: 86px;
+  }
+
+  .app-descr__features-illustration {
+    position: absolute;
+    left: 600px;
+    top: 180px
+  }
+
+}

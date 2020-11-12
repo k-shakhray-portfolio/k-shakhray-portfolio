@@ -1,0 +1,34 @@
+{
+  "name": "fe15_step_project_forkio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx gulp build",
+    "dev": "npx gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/shakhray3/fe15_step_project_forkio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/shakhray3/fe15_step_project_forkio/issues"
+  },
+  "homepage": "https://gitlab.com/shakhray3/fe15_step_project_forkio",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^4.14.1",
+    "postcss": "^7.0.32",
+    "postcss-uncss": "^0.17.0",
+    "uncss": "^0.17.3"
+  }
+}
