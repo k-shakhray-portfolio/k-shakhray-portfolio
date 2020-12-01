@@ -8,7 +8,7 @@ if (referrer_url == 0) {
 }
 
 if (referrer_url === valid_url) {
-    window.location.href = 'https://www.google.com/'
+    window.location.href = 'https://docs.google.com/document/d/1Ldr4qYKmmbhAMU1Zh-0Whq8V96cU3k-rdes5Qxt6ubE/edit'
 }
 
 console.log(document.referrer)
