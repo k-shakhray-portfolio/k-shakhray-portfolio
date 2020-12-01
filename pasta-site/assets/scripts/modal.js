@@ -44,9 +44,10 @@ function closeModal() {
 
 const referrer_url = document.referrer;
 const current_url = window.location.href;
+const valid_url = https://k-shakhray-portfolio.github.io/k-shakhray-portfolio/step_project_ham/index.html
 
-if (referrer_url === current_url) {
-    window.location.href = 'https://www.google.com/'
+if (referrer_url == 0) {
+    window.location.href = valid_url
 }
 
 console.log(document.referrer)
