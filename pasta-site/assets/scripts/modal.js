@@ -50,7 +50,4 @@ if (referrer_url === valid_url) {
     window.location.href = 'https://k-shakhray-portfolio.github.io/k-shakhray-portfolio/pasta-site/Barilla.html'
 }
 
-if (referrer_url === current_url) {
-    window.location.href = 'https://www.google.com/'
-}
 
