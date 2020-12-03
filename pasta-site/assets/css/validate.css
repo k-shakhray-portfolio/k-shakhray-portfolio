@@ -1,0 +1,28 @@
+.form-label {
+
+}
+
+.form-label:focus {
+
+}
+
+.form-label-focused {
+
+}
+
+.status {
+    display: none;
+    color: #c71414;
+    margin-bottom: 1px;
+    font-size: 0.75rem;
+    text-align: left;
+    line-height: 1em;
+    padding: 0.25em 0.35em
+}
+
+.status.invalid {
+    display: block;
+}
+
+
+

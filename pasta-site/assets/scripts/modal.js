@@ -1,4 +1,3 @@
-
 const modal = document.querySelector('.modal-wrapper');
 const modalContent = document.querySelector('#modal-content')
 const modalRegolamento = document.querySelector('#regolamento-modal');
@@ -12,10 +11,9 @@ const modalPrivacyLink = "./assets/modal-pages/Privacy/Privacy.html";
 const modalContattoLink = "./assets/modal-pages/Contatto/Contatto.html";
 
 
-modalRegolamento.addEventListener('click', openRegolamentoModal );
-modalPrivacy.addEventListener('click', openPrivacyModal );
-modalContatto.addEventListener('click', openContattoModal );
-// modalOverlay.addEventListener('click', closeModal );
+modalRegolamento.addEventListener('click', openRegolamentoModal);
+modalPrivacy.addEventListener('click', openPrivacyModal);
+modalContatto.addEventListener('click', openContattoModal);
 modalCloseButton.addEventListener('click', closeModal);
 
 function openRegolamentoModal(evt) {
