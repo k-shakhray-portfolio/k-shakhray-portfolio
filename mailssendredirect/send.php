@@ -3,6 +3,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
+
 require 'PHPMailer/src/PHPMailer.php';
 require 'PHPMailer/src/Exception.php';
 
@@ -21,7 +22,7 @@ $mail->Body = $body;
 if(!$mail->send()) {
     $message = 'OK';
 } else {
-    $message = 'NotOK'
+    $message = 'Not OK'
 }
 
 $response = ['message' => $message];
