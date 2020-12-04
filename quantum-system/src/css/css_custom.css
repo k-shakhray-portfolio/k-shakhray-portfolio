@@ -1116,17 +1116,17 @@ p.bigger {
     background-repeat: no-repeat
 }
 
-.input-group-addon.name {
-    background-image: url('./images/ico-name.png')
-}
+/*.input-group-addon.name {*/
+/*    background-image: url('./images/ico-name.png')*/
+/*}*/
 
-.input-group-addon.email {
-    background-image: url('./images/ico-email.png')
-}
+/*.input-group-addon.email {*/
+/*    background-image: url('./images/ico-email.png')*/
+/*}*/
 
-.input-group-addon.password {
-    background-image: url('./images/ico-password.png')
-}
+/*.input-group-addon.password {*/
+/*    background-image: url('./images/ico-password.png')*/
+/*}*/
 
 .form-control {
     min-height: 50px
