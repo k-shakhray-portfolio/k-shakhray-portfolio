@@ -1,0 +1,221 @@
+
+.page-background {
+    /*background: url("../img/Milan_Holidays.jpg") no-repeat fixed;*/
+    background: black;
+    background-size: cover;
+    min-height: 100vh;
+    /*margin: 0;*/
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+.page-main-container {
+    width: 1065px;
+    margin: 0 auto;
+    padding: 48px 0;
+    color: white;
+}
+
+        /*HEADER*//*HEADER*//*HEADER*/
+        /*HEADER*//*HEADER*//*HEADER*/
+
+.page-header {
+    margin-bottom: 45px;
+}
+
+.header-title {
+    font-weight: bold;
+
+}
+
+.header-title-first-section {
+    display: inline-block;
+    font-size: 24px;
+    text-transform: uppercase;
+    /*letter-spacing: 1px;*/
+}
+
+.header-title-second-section {
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 14px;
+
+}
+
+.header-logo {
+    display: inline-block;
+}
+
+.header-logo-link, .section-link-wrapper {
+    color: white;
+    text-decoration: none;
+}
+
+.header-logo-link:hover {
+    color: orangered;
+}
+
+.header-logo-link:hover .logo-svg-color {
+    fill: orangered;
+}
+
+.logo-svg {
+    float: left;
+    width: 46px;
+    height: 50px;
+}
+
+.logo-svg-color {
+    fill: white;
+}
+
+
+.header-contacts {
+    float: right;
+}
+
+        /*CONTENT*//*CONTENT*//*CONTENT*/
+        /*CONTENT*//*CONTENT*//*CONTENT*/
+
+.page-content {
+
+}
+
+.content-section {
+    float: left;
+    margin: 0 0 45px 61px;
+}
+
+
+.section-image {
+    position: relative;
+    width: 310px;
+    height: 200px;
+    border: 2px solid white;
+    border-image: linear-gradient(to bottom, white, orangered) 1 100%;
+    border-image-slice: 1;
+    overflow: hidden;
+    transition-duration: 300ms;
+}
+
+.shopping {
+    margin-left: 0;
+}
+
+.bars-nights {
+    margin-left: 0;
+}
+
+.shopping .section-image {
+    background: url("https://rau.ua/wp-content/uploads/2016/08/Miniatyura-na-sajt.jpg") no-repeat;
+    background-size: cover;
+}
+
+.sightseeing .section-image {
+    background: url("https://ic.pics.livejournal.com/bierbaumer/50361369/3573/original.jpg") no-repeat;
+    background-size: cover;
+}
+
+.food .section-image {
+    background: url("https://narodna-pravda.ua/wp-content/uploads/2018/08/shaurma.jpg") no-repeat;
+    background-size: cover;
+}
+
+.bars-nights .section-image {
+    background: url("https://vi.ill.in.ua/m/625x469/65878.jpg") no-repeat;
+    background-size: cover;
+}
+
+.art .section-image {
+    background: url("https://img.tsn.ua/cached/1533895806/tsn-0836864a16c9e8e7a60a1868506671d8/thumbs/1340x530/b2/ea/62cd6fd321fd0605f89392843639eab2.jpg") no-repeat;
+    background-size: cover;
+}
+
+.walking .section-image {
+    background: url("https://nashkiev.ua/assets_images/post_photo/000/020/874/image_originals.jpg") no-repeat;
+    background-size: cover;
+}
+
+
+.section-description {
+    position: absolute;
+    bottom: -65px;
+    right: -2px;
+    width: calc(100% + 4px);
+    height: 63px;
+    background: orangered;
+    transition-duration: 300ms;
+}
+
+.section-image:hover {
+    border: 2px solid orangered;
+}
+
+.section-image:hover .section-description {
+    bottom: -2px;
+
+}
+
+
+.section-image:not(:hover) .description-right-part {
+    transition-duration: 0ms;
+}
+
+.section-image:not(:hover) .description-left-part {
+    transition-duration: 0ms;
+}
+
+
+.description-left-part, .description-right-part {
+    transition-duration: 300ms;
+    transition-timing-function: step-end;
+}
+
+.description-left-part {
+    float: left;
+    margin: 15px 0 15px 21px;
+}
+
+.from {
+    font-size: 7px;
+    margin: 3px;
+}
+
+.price {
+    font-size: 17px;
+    margin: 3px;
+}
+
+.description-right-part {
+    float: right;
+    margin: 35px 15px 15px 0;
+    font-size: 13px;
+}
+
+.arrow::after {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-bottom: 1px solid darkgray;
+    border-right: 1px solid darkgray;
+    transform: rotate(-45deg);
+    margin: 0 18px;
+}
+
+.section-name {
+    text-align: center;
+    margin: 20px;
+}
+
+        /*FOOTER*//*FOOTER*//*FOOTER*/
+        /*FOOTER*//*FOOTER*//*FOOTER*/
+
+.page-footer {
+    clear: both;
+    text-align: center;
+}
+
