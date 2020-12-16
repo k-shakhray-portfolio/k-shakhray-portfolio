@@ -1,0 +1,249 @@
+.page-background {
+    font-family: 'Arimo', sans-serif;
+    background: darkslategray;
+    padding: 20px;
+}
+
+.page-pricing-plan-table {
+    margin: 0 auto;
+}
+.page-pricing-plan-table th,
+.page-pricing-plan-table td{
+    height: 70px;
+    width: 277px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+        /*TABLE-THEAD*//*TABLE-THEAD*//*TABLE-THEAD*/
+
+.pricing-plan-thead {
+    background: #fafafa;
+}
+
+.thead-plan-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.thead-plan-title p {
+    font-size: 30px;
+}
+
+.thead-plan {
+    color: white;
+    font-weight: bold;
+}
+
+.standard {
+    background: #89c331;
+    font-size: 24px;
+}
+
+.ultimate {
+    background: #f04a56;
+    font-size: 30px;
+}
+
+.premium {
+    background: #20807c;
+    font-size: 24px;
+}
+
+.table-price {
+    float: left;
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.table-price-right {
+    float: right;
+    text-align: left;
+    margin-right: 40px;
+    margin-top: 5px;
+}
+
+.table-price-coin {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+        /*TABLE-TBODY*//*TABLE-TBODY*//*TABLE-TBODY*/
+
+.pricing-plan-tbody tr {
+    background: #f2f2f2;
+}
+
+.pricing-plan-tbody tr:nth-child(2n) {
+    background-color: #d1d1d1;
+}
+
+        /*TBODY-ICONS*/
+
+.icon-archive {
+    color: #848484;
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.icon-cloud-upload {
+    color: #848484;
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.icon-envelope {
+    color: #848484;
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.icon-cog {
+    color: #848484;
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.icon-dropbox {
+    color: #848484;
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.icon-user {
+    color: #848484;
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+
+        /*TABLE-TFOOT*//*TABLE-TFOOT*//*TABLE-TFOOT*/
+
+.pricing-plan-tfoot tr {
+    height: 110px;
+}
+
+.pricing-plan-tfoot tr td:nth-child(1) {
+    background: #dddd;
+}
+
+.pricing-plan-tfoot tr td:nth-child(2) {
+    background: #eeeeee;
+}
+
+.pricing-plan-tfoot tr td:nth-child(3) {
+    background: #f4f4f4;
+}
+
+.pricing-plan-tfoot tr td:nth-child(4) {
+    background: #eeeeee;
+}
+
+.pricing-plan-tfoot a {
+    display: inline-block;
+    width: 190px;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.tfoot-contact-us {
+    position: relative;
+    background: #484848;
+}
+.tfoot-contact-us::after {
+    content: ' ';
+    width: 230px;
+    height: 8px;
+    background: #404040;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.tfoot-contact-us:hover {
+    background: #686868;
+}
+.tfoot-contact-us:hover::after {
+    visibility: hidden;
+}
+
+
+.tfoot-standard-buy {
+    position: relative;
+    background: #89c331;
+}
+.tfoot-standard-buy::after {
+    content: ' ';
+    width: 230px;
+    height: 8px;
+    background: #79b027;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.tfoot-standard-buy:hover {
+    background: #a4e032;
+}
+.tfoot-standard-buy:hover::after {
+    visibility: hidden;
+}
+
+.tfoot-ultimate-buy {
+    position: relative;
+    background: #f04a56;
+}
+.tfoot-ultimate-buy::after {
+    content: ' ';
+    width: 230px;
+    height: 8px;
+    background: #df3a46;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.tfoot-ultimate-buy:hover {
+    background: #ff4d59;
+}
+.tfoot-ultimate-buy:hover::after {
+    visibility: hidden;
+}
+
+.tfoot-premium-buy {
+    position: relative;
+    background: #20807c;
+}
+.tfoot-premium-buy::after {
+    content: ' ';
+    width: 230px;
+    height: 8px;
+    background: #16736f;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.tfoot-premium-buy:hover {
+    background: #239b97;
+}
+.tfoot-premium-buy:hover::after {
+    visibility: hidden;
+}
+
+.page-pricing-plan-table th, .page-pricing-plan-table td {
+    box-shadow: inset 7px 0 10px -10px rgba(0, 0, 0, 0.4);
+}
+
