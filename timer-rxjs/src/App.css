@@ -1,0 +1,20 @@
+html {
+  background: #0e0e1a;
+  color: white;
+}
+
+.page-background {
+  min-height: 100vh;
+
+  background: url('images/background.jpg') no-repeat fixed;
+  background-size: cover;
+
+  filter: blur(3px) grayscale(10%) brightness(0.60);
+}
+
+.app-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
